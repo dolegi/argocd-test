@@ -12,6 +12,6 @@ spec:
     spec:
       containers:
       - image: public.ecr.aws/t7e4w9i3/dom-eks-argo-testing:hello
-        name: hello-container
+        name: hello 
         ports:
         - containerPort: 8080
